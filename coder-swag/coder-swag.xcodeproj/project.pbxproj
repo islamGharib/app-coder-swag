@@ -16,6 +16,7 @@
 		7F514B7223F6E22800016996 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F514B7123F6E22800016996 /* Category.swift */; };
 		7F514B7523F6E79100016996 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F514B7423F6E79100016996 /* DataService.swift */; };
 		7F5ED5B7242D14EB001C9472 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5ED5B6242D14EB001C9472 /* ProductsVC.swift */; };
+		7F5ED5B9242D24BE001C9472 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5ED5B8242D24BE001C9472 /* ProductCell.swift */; };
 		7F7434302427D60600A01E8E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F74342F2427D60600A01E8E /* Product.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		7F514B7123F6E22800016996 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		7F514B7423F6E79100016996 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		7F5ED5B6242D14EB001C9472 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
+		7F5ED5B8242D24BE001C9472 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		7F74342F2427D60600A01E8E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				7F1851F523EE192300264DE3 /* CategoryCell.swift */,
+				7F5ED5B8242D24BE001C9472 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				7F1851F623EE192300264DE3 /* CategoryCell.swift in Sources */,
 				7F514B7223F6E22800016996 /* Category.swift in Sources */,
 				7F5ED5B7242D14EB001C9472 /* ProductsVC.swift in Sources */,
+				7F5ED5B9242D24BE001C9472 /* ProductCell.swift in Sources */,
 				7F514B7523F6E79100016996 /* DataService.swift in Sources */,
 				7F7434302427D60600A01E8E /* Product.swift in Sources */,
 			);

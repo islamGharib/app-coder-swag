@@ -106,7 +106,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="cmG-iX-Y7V">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCell" id="cmG-iX-Y7V" customClass="ProductCell" customModule="coder_swag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="182" height="270"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -149,6 +149,11 @@
                                             <constraint firstAttribute="trailing" secondItem="NTT-l2-Hu6" secondAttribute="trailing" id="pu4-vQ-fLA"/>
                                             <constraint firstAttribute="bottomMargin" secondItem="1RS-1m-Kaa" secondAttribute="bottom" constant="3" id="zaw-yJ-LH0"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="productImage" destination="BKH-C6-L85" id="dNp-yT-M4E"/>
+                                            <outlet property="productPrice" destination="1RS-1m-Kaa" id="fxc-lj-mhn"/>
+                                            <outlet property="productTitle" destination="NTT-l2-Hu6" id="a4s-Iq-CGR"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -174,6 +179,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fWI-kV-NlL"/>
                     </view>
+                    <connections>
+                        <outlet property="productsCollectionView" destination="EpQ-rn-Qo1" id="80F-KD-dIC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ufn-59-CDG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
